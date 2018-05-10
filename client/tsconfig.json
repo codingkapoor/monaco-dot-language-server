@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": false,
+        "declaration": true,
+        "stripInternal": true,
+        "lib": [
+            "es2016", "dom"
+        ],
+        "outDir": "lib",
+        "strict": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "baseUrl": "."
+    },
+    "include": [
+        "src"
+    ]
+}

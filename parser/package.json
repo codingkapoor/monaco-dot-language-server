@@ -1,0 +1,11 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "A simple DOT language parser written in Javascript",
+  "main": "index.js",
+  "author": "codingkapoor",
+  "license": "MIT",
+  "dependencies": {
+    "antlr4": "4.7.1"
+  }
+}

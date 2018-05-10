@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "dependencies": {
+    "monaco-languageclient": "^0.6.3",
+    "vscode-json-languageservice": "^3.0.11",
+    "vscode-languageserver-types": "^3.6.1",
+    "server": "file:../server"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "css-loader": "^0.28.11",
+    "rimraf": "^2.6.2",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.3",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.11.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf lib",
+    "copy": "cp src/index.html lib/index.html",
+    "build": "npm run compile && webpack && npm run copy"
+  }
+}
