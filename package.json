@@ -1,7 +1,7 @@
 {
-  "name": "monaco-language-server-dot",
+  "name": "monaco-dot-language-server",
   "version": "1.0.0",
-  "description": "A language server for DOT with Monaco editor",
+  "description": "A Monaco editor language server protocol implementation for DOT language"
   "scripts": {
     "postinstall": "cd parser && npm install && cd ../server && npm install && cd ../client && npm install"
   },
