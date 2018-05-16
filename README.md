@@ -3,7 +3,7 @@ A language server for DOT with Monaco editor
 
 # Installation
 ```
-cd monaco-language-server-dot
+cd monaco-dot-language-server
 npm install
 ```
 
